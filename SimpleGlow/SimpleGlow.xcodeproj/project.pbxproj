@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		301425D51BC0C1B5000F8ECA /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 301425D41BC0C1B5000F8ECA /* MainViewController.m */; };
+		301425D71BC0C4A4000F8ECA /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 301425D61BC0C4A4000F8ECA /* Icon.png */; };
+		306728A01BBB608500D8D076 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3067289F1BBB608500D8D076 /* main.m */; };
+		306728A31BBB608500D8D076 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 306728A21BBB608500D8D076 /* AppDelegate.m */; };
+		306728A61BBB608500D8D076 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 306728A51BBB608500D8D076 /* ViewController.m */; };
+		306728A91BBB608500D8D076 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 306728A71BBB608500D8D076 /* Main.storyboard */; };
+		306728AB1BBB608500D8D076 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 306728AA1BBB608500D8D076 /* Images.xcassets */; };
+		306728AE1BBB608500D8D076 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 306728AC1BBB608500D8D076 /* LaunchScreen.xib */; };
+		306728BA1BBB608500D8D076 /* SimpleGlowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 306728B91BBB608500D8D076 /* SimpleGlowTests.m */; };
+		306728C81BBB62B400D8D076 /* MainViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 306728C71BBB62B400D8D076 /* MainViewCell.m */; };
+		306728CE1BBB83C400D8D076 /* headImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 306728CC1BBB83C400D8D076 /* headImage.png */; };
+		306728CF1BBB83C400D8D076 /* headImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 306728CD1BBB83C400D8D076 /* headImage@2x.png */; };
+		306A4E291BBCC9B6004F954A /* content.json in Resources */ = {isa = PBXBuildFile; fileRef = 306A4E281BBCC9B6004F954A /* content.json */; };
+		306A4E2B1BBCEFA9004F954A /* content.plist in Resources */ = {isa = PBXBuildFile; fileRef = 306A4E2A1BBCEFA9004F954A /* content.plist */; };
+		306A4E311BBD26A8004F954A /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 306A4E301BBD26A8004F954A /* DetailViewController.m */; };
+		306A4E341BBD26D0004F954A /* DetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 306A4E331BBD26D0004F954A /* DetailCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		306728B41BBB608500D8D076 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 306728921BBB608500D8D076 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 306728991BBB608500D8D076;
+			remoteInfo = SimpleGlow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		301425D31BC0C1B5000F8ECA /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		301425D41BC0C1B5000F8ECA /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		301425D61BC0C4A4000F8ECA /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		3067289A1BBB608500D8D076 /* SimpleGlow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleGlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3067289E1BBB608500D8D076 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3067289F1BBB608500D8D076 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		306728A11BBB608500D8D076 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		306728A21BBB608500D8D076 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		306728A41BBB608500D8D076 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		306728A51BBB608500D8D076 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		306728A81BBB608500D8D076 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		306728AA1BBB608500D8D076 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		306728AD1BBB608500D8D076 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		306728B31BBB608500D8D076 /* SimpleGlowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleGlowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		306728B81BBB608500D8D076 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		306728B91BBB608500D8D076 /* SimpleGlowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleGlowTests.m; sourceTree = "<group>"; };
+		306728C61BBB62B400D8D076 /* MainViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewCell.h; sourceTree = "<group>"; };
+		306728C71BBB62B400D8D076 /* MainViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewCell.m; sourceTree = "<group>"; };
+		306728CC1BBB83C400D8D076 /* headImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = headImage.png; sourceTree = "<group>"; };
+		306728CD1BBB83C400D8D076 /* headImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "headImage@2x.png"; sourceTree = "<group>"; };
+		306A4E281BBCC9B6004F954A /* content.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = content.json; sourceTree = "<group>"; };
+		306A4E2A1BBCEFA9004F954A /* content.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = content.plist; sourceTree = "<group>"; };
+		306A4E2F1BBD26A8004F954A /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		306A4E301BBD26A8004F954A /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		306A4E321BBD26D0004F954A /* DetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailCell.h; sourceTree = "<group>"; };
+		306A4E331BBD26D0004F954A /* DetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailCell.m; sourceTree = "<group>"; };
+		306A4E351BBD3D86004F954A /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		306728971BBB608500D8D076 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		306728B01BBB608500D8D076 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		306728911BBB608500D8D076 = {
+			isa = PBXGroup;
+			children = (
+				3067289C1BBB608500D8D076 /* SimpleGlow */,
+				306728B61BBB608500D8D076 /* SimpleGlowTests */,
+				3067289B1BBB608500D8D076 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3067289B1BBB608500D8D076 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3067289A1BBB608500D8D076 /* SimpleGlow.app */,
+				306728B31BBB608500D8D076 /* SimpleGlowTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3067289C1BBB608500D8D076 /* SimpleGlow */ = {
+			isa = PBXGroup;
+			children = (
+				301425D31BC0C1B5000F8ECA /* MainViewController.h */,
+				301425D41BC0C1B5000F8ECA /* MainViewController.m */,
+				306728C61BBB62B400D8D076 /* MainViewCell.h */,
+				306728C71BBB62B400D8D076 /* MainViewCell.m */,
+				306A4E2F1BBD26A8004F954A /* DetailViewController.h */,
+				306A4E301BBD26A8004F954A /* DetailViewController.m */,
+				306A4E321BBD26D0004F954A /* DetailCell.h */,
+				306A4E331BBD26D0004F954A /* DetailCell.m */,
+				306728A11BBB608500D8D076 /* AppDelegate.h */,
+				306728A21BBB608500D8D076 /* AppDelegate.m */,
+				306728A41BBB608500D8D076 /* ViewController.h */,
+				306728A51BBB608500D8D076 /* ViewController.m */,
+				306728A71BBB608500D8D076 /* Main.storyboard */,
+				306728AA1BBB608500D8D076 /* Images.xcassets */,
+				306728AC1BBB608500D8D076 /* LaunchScreen.xib */,
+				3067289D1BBB608500D8D076 /* Supporting Files */,
+				306A4E351BBD3D86004F954A /* Common.h */,
+			);
+			path = SimpleGlow;
+			sourceTree = "<group>";
+		};
+		3067289D1BBB608500D8D076 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				306728C91BBB83C400D8D076 /* Resources */,
+				3067289E1BBB608500D8D076 /* Info.plist */,
+				3067289F1BBB608500D8D076 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		306728B61BBB608500D8D076 /* SimpleGlowTests */ = {
+			isa = PBXGroup;
+			children = (
+				306728B91BBB608500D8D076 /* SimpleGlowTests.m */,
+				306728B71BBB608500D8D076 /* Supporting Files */,
+			);
+			path = SimpleGlowTests;
+			sourceTree = "<group>";
+		};
+		306728B71BBB608500D8D076 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				306728B81BBB608500D8D076 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		306728C91BBB83C400D8D076 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				306728CA1BBB83C400D8D076 /* Data */,
+				306728CB1BBB83C400D8D076 /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		306728CA1BBB83C400D8D076 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				306A4E281BBCC9B6004F954A /* content.json */,
+				306A4E2A1BBCEFA9004F954A /* content.plist */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		306728CB1BBB83C400D8D076 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				301425D61BC0C4A4000F8ECA /* Icon.png */,
+				306728CC1BBB83C400D8D076 /* headImage.png */,
+				306728CD1BBB83C400D8D076 /* headImage@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		306728991BBB608500D8D076 /* SimpleGlow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 306728BD1BBB608500D8D076 /* Build configuration list for PBXNativeTarget "SimpleGlow" */;
+			buildPhases = (
+				306728961BBB608500D8D076 /* Sources */,
+				306728971BBB608500D8D076 /* Frameworks */,
+				306728981BBB608500D8D076 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleGlow;
+			productName = SimpleGlow;
+			productReference = 3067289A1BBB608500D8D076 /* SimpleGlow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		306728B21BBB608500D8D076 /* SimpleGlowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 306728C01BBB608500D8D076 /* Build configuration list for PBXNativeTarget "SimpleGlowTests" */;
+			buildPhases = (
+				306728AF1BBB608500D8D076 /* Sources */,
+				306728B01BBB608500D8D076 /* Frameworks */,
+				306728B11BBB608500D8D076 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				306728B51BBB608500D8D076 /* PBXTargetDependency */,
+			);
+			name = SimpleGlowTests;
+			productName = SimpleGlowTests;
+			productReference = 306728B31BBB608500D8D076 /* SimpleGlowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		306728921BBB608500D8D076 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = danny;
+				TargetAttributes = {
+					306728991BBB608500D8D076 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					306728B21BBB608500D8D076 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 306728991BBB608500D8D076;
+					};
+				};
+			};
+			buildConfigurationList = 306728951BBB608500D8D076 /* Build configuration list for PBXProject "SimpleGlow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 306728911BBB608500D8D076;
+			productRefGroup = 3067289B1BBB608500D8D076 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				306728991BBB608500D8D076 /* SimpleGlow */,
+				306728B21BBB608500D8D076 /* SimpleGlowTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		306728981BBB608500D8D076 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				306728A91BBB608500D8D076 /* Main.storyboard in Resources */,
+				306A4E2B1BBCEFA9004F954A /* content.plist in Resources */,
+				306728CE1BBB83C400D8D076 /* headImage.png in Resources */,
+				301425D71BC0C4A4000F8ECA /* Icon.png in Resources */,
+				306728CF1BBB83C400D8D076 /* headImage@2x.png in Resources */,
+				306728AE1BBB608500D8D076 /* LaunchScreen.xib in Resources */,
+				306728AB1BBB608500D8D076 /* Images.xcassets in Resources */,
+				306A4E291BBCC9B6004F954A /* content.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		306728B11BBB608500D8D076 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		306728961BBB608500D8D076 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				306728A61BBB608500D8D076 /* ViewController.m in Sources */,
+				306728A31BBB608500D8D076 /* AppDelegate.m in Sources */,
+				306728A01BBB608500D8D076 /* main.m in Sources */,
+				306728C81BBB62B400D8D076 /* MainViewCell.m in Sources */,
+				301425D51BC0C1B5000F8ECA /* MainViewController.m in Sources */,
+				306A4E341BBD26D0004F954A /* DetailCell.m in Sources */,
+				306A4E311BBD26A8004F954A /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		306728AF1BBB608500D8D076 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				306728BA1BBB608500D8D076 /* SimpleGlowTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		306728B51BBB608500D8D076 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 306728991BBB608500D8D076 /* SimpleGlow */;
+			targetProxy = 306728B41BBB608500D8D076 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		306728A71BBB608500D8D076 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				306728A81BBB608500D8D076 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		306728AC1BBB608500D8D076 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				306728AD1BBB608500D8D076 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		306728BB1BBB608500D8D076 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		306728BC1BBB608500D8D076 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		306728BE1BBB608500D8D076 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SimpleGlow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		306728BF1BBB608500D8D076 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SimpleGlow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		306728C11BBB608500D8D076 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SimpleGlowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleGlow.app/SimpleGlow";
+			};
+			name = Debug;
+		};
+		306728C21BBB608500D8D076 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SimpleGlowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleGlow.app/SimpleGlow";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		306728951BBB608500D8D076 /* Build configuration list for PBXProject "SimpleGlow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				306728BB1BBB608500D8D076 /* Debug */,
+				306728BC1BBB608500D8D076 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		306728BD1BBB608500D8D076 /* Build configuration list for PBXNativeTarget "SimpleGlow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				306728BE1BBB608500D8D076 /* Debug */,
+				306728BF1BBB608500D8D076 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		306728C01BBB608500D8D076 /* Build configuration list for PBXNativeTarget "SimpleGlowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				306728C11BBB608500D8D076 /* Debug */,
+				306728C21BBB608500D8D076 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 306728921BBB608500D8D076 /* Project object */;
+}
